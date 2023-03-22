@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/hacker.gif);
+      background-size: cover;
+      background-position: center;
+      height:100vh;
+      background-attachment: fixed; /*makes the background static when you scroll */
+      color: green;
+  }
+  
+  h1 {
+    margin-top: 200px;
+    color: #32c20e;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Monoton', cursive;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #20C20E;
+    font-size: 120%;
+  }
+  
+  form {
+    text-align: center;
+    color: #20C20E;
+    border: white;
+    margin-bottom: 200px;
+  }
+  
+  
+  .out-input {
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 90%;
+  }
+  
+  .glyphs {
+    color: white;
+  }
+  
+  footer {
+    margin-top: 90px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: green;
+    background-color: rgba(0,200,0,0.1);
+    font-size: 80%;
+  }
+  
+  button {
+    border-radius: 200px; 
+    background: #20C20E;
+    color: white;
+    margin-top: 15px;
+    font-size: 80%;
+  }
+  
+  button:hover,
+  button:active,
+  input[type=submit]:hover,
+  input[type=submit] :active  {
+      background-color: #121212;
+    color: #20C20E;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
+  
+  
+  #user-input {
+    margin: 1px;
+  }
