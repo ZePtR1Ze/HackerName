@@ -1,5 +1,5 @@
 function myFunction() {
-    var parrafoNuevo = document.getElementById("nuevo");
+    var newParragraph = document.getElementById("new");
     var input = document.getElementById("user-input").value.toLowerCase();
             
     var output = " ";
